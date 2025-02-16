@@ -15,7 +15,6 @@ PRODUCT || -- 0{ SALES : CONTAINS
         string order
         string  custNumber
         string prodNumber
-
     }
 PRODUCT || -- 0{ IVENTORY : CONTAINS
  INVENTORY {
