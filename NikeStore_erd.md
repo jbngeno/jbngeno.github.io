@@ -1,11 +1,11 @@
-'''mermaid
-ErDiagram
+```mermaid
+erDiagram
 CUSTOMER ||-- 0{ SALES : places
     CUSTOMER {
         string custNumber
         string name
     }
-PRODUCT || -- 0{ SALES : CONTAINS
+PRODUCT ||-- 0{ SALES : CONTAINS
  PRODUCT { 
         string prodNumber
         string type
@@ -16,10 +16,10 @@ PRODUCT || -- 0{ SALES : CONTAINS
         string  custNumber
         string prodNumber
     }
-PRODUCT || -- 0{ IVENTORY : CONTAINS
+PRODUCT ||-- 0{ IVENTORY : CONTAINS
  INVENTORY {
         string inventNumber
         int amount
         string prodNumber
     }
-    '''
+    ```
