@@ -1,25 +1,25 @@
 ```mermaid
 erDiagram
-CUSTOMER ||-- 0{ SALES : places
+CUSTOMER ||-- o{ SALES : places
     CUSTOMER {
         string custNumber
         string name
+        string address
     }
-PRODUCT ||-- 0{ SALES : CONTAINS
+PRODUCT ||-- o{ SALES : CONTAINS
  PRODUCT { 
         string prodNumber
-        string type
+        string ShoeType
     }
  SALES { 
         string salesNumber
-        string order
+        string Price
         string  custNumber
-        string prodNumber
     }
-PRODUCT ||-- 0{ IVENTORY : CONTAINS
+PRODUCT ||-- o{ INVENTORY : CONTAINS
  INVENTORY {
         string inventNumber
         int amount
         string prodNumber
     }
-    ```
+```
